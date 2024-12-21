@@ -1,5 +1,3 @@
-# Zenpay
-MERN stack Fintech application 
 
 
 # ZenPay - A FinTech Application
