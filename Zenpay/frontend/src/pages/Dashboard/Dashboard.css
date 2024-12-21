@@ -1,0 +1,71 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 0 4rem;
+  margin-top: 3rem;
+}
+
+.stat-card {
+  background-color: white;
+  padding: 2.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stat-card-title {
+  color: #4a5568;
+}
+
+.stat-card-value {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 0.25rem;
+}
+
+.spending-analysis {
+  background-color: white;
+  padding: 2.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.spending-analysis-title {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.spending-category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spending-category-name {
+  font-weight: 500;
+}
+
+.spending-category-amount {
+  color: #718096;
+  font-size: 0.875rem;
+}
+
+.spending-category-bar {
+  width: 6rem;
+  background-color: #e2e8f0;
+  border-radius: 9999px;
+  height: 0.5rem;
+  overflow: hidden;
+}
+
+.spending-category-bar-fill {
+  background-color: #4f46e5;
+  height: 100%;
+  border-radius: 9999px;
+} 
