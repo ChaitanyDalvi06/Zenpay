@@ -1,5 +1,4 @@
 
-
 # ZenPay - A FinTech Application
 
 ZenPay is an innovative fintech application built using the MERN stack (MongoDB, Express, React, Node.js) that empowers users to manage their finances effortlessly. The app offers intelligent investment recommendations, seamless payment integrations, and an intuitive dashboard for data and transaction tracking.
@@ -31,6 +30,7 @@ ZenPay is an innovative fintech application built using the MERN stack (MongoDB,
 
 ### Frontend
 - **React**: For building a dynamic and interactive user interface.
+- **Tailwind CSS**: For styling the frontend with utility-first CSS framework, ensuring a clean and responsive design.
 
 ### Backend
 - **Node.js & Express**: For handling server-side logic and APIs.
@@ -53,7 +53,3 @@ ZenPay is an innovative fintech application built using the MERN stack (MongoDB,
 - MongoDB setup for database access.
 - Razorpay and Google Gemini API keys.
 
-### Steps to Run Locally
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/zenpay.git
